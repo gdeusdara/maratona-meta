@@ -1,4 +1,4 @@
-maratona-meta (20190718.4) bionic; urgency=low
+maratona-meta (20200519) focal; urgency=low
 
   * dconf/80-keyboards: Fix US layout
   * icpc-clean-homed: Added some time between commands
