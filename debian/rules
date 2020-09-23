@@ -21,6 +21,7 @@ override_dh_auto_install:
 	mkdir -p debian/maratona-usuario-icpc/usr/sbin/
 	install scripts-administrativos/zera-home-icpc debian/maratona-usuario-icpc/usr/sbin/
 	install scripts-administrativos/icpc-clean-homed debian/maratona-usuario-icpc/usr/sbin/
+
 	mkdir -p debian/maratona-usuario-icpc/usr/bin
 
 	cp scripts-administrativos/clean-icpc-on-reboot debian/maratona-usuario-icpc/usr/bin/
