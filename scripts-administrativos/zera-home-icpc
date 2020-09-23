@@ -89,7 +89,6 @@ su icpc -c 'dbus-launch gio set /home/icpc/Desktop/python3doc.desktop "metadata:
 chown -R icpc:users ~icpc
 chmod 755 /home/icpc/Desktop/*
 
-
 for i in media mnt var opt tmp usr $(df|grep tmpfs|awk '{print $NF}'); do
   printf "Removing files from: /$i"
   find /$i -user icpc -delete
