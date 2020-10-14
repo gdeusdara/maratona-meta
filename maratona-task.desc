@@ -6,4 +6,5 @@ Key:
   ubuntu-desktop-minimal
 Packages: list
   maratona-desktop
+  - gnome-initial-setup
 Section: user
